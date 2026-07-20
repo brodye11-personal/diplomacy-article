@@ -30,9 +30,10 @@ Annotated bibliography for the article. Citation keys (e.g. `[bai2022]`) are ref
   Estimates an effective public human-text stock of roughly 300T tokens (90% CI: 100T–1,000T), and explains why data availability is a real scaling constraint rather than a simple exponential.
 
 - **[metr-time-horizons-2026]** METR (2026). *Task-Completion Time Horizons of Frontier AI Models.* https://metr.org/time-horizons/
+  Measures the human-expert task duration at which a frontier agent reaches a given success probability. The reported long-run 50% time-horizon trend is approximately a seven-month doubling, but is restricted mainly to bounded software, ML, and cyber tasks and must not be read as general autonomous-work duration.
 
 - **[dod-ai-adoption-2024]** U.S. Department of Defense (2024). *CDAO and DIU Launch New Effort Focused on Accelerating DoD Adoption of AI Capabilities.* https://www.defense.gov/News/Releases/Release/Article/3996199/cdao-and-diu-launch-new-effort-focused-on-accelerating-dod-adoption-of-ai-capab/
-  Measures the human-expert task duration at which a frontier agent reaches a given success probability. The reported long-run 50% time-horizon trend is approximately a seven-month doubling, but is restricted mainly to bounded software, ML, and cyber tasks and must not be read as general autonomous-work duration.
+  Announces an effort to accelerate development and deployment of frontier-model-enabled tools across warfighting, command and control, decision support, operational planning, logistics, autonomous systems, and intelligence.
 
 ## Interpretability and oversight lag
 
