@@ -3,6 +3,8 @@ Wall time: 0.4 seconds
 Output:
 # Constitutional exploits and the search for a Nash-equilibrium morality
 
+*How publicly known moral frameworks can become strategic liabilities for AI agents*
+
 Two governments face the same kidnapping group. One has a public policy of paying ransoms to bring its citizens home. The other refuses, on the grounds that paying will finance the next abduction.
 
 The kidnappers want money. They also want to choose whom to take next. So they study the policies. They know that abducting a citizen of the first country creates a predictable political and financial response. Abducting a citizen of the second may still create pressure, but it does not create the same bargaining position.
@@ -36,8 +38,6 @@ So if we cannot reliably read an AI's mind, and cannot rely on a major slowdown 
 Constitutional training is not hypothetical. Anthropic's Constitutional AI paper describes training an assistant with a written set of principles [bai2022], and Claude's constitution is public [anthropic-claude-constitution]. Other frontier labs publish model specifications and usage policies that play a related role. Public commitments can improve trust, coordination, and accountability. They make it easier for others to predict what a system is supposed to do and to criticise it when it fails.
 
 That is a genuine benefit. It is also the source of the risk.
-
-Call a moral framework *exploitable* when knowledge of the framework lets another agent induce actions that are strategically worse for its holder than the actions it would otherwise have taken. This is a claim about the interaction between a rule and an opponent. It is not a claim that the rule is false, stupid, or morally wrong.
 
 There is already evidence that moral reasoning itself can be part of the attack surface. The TRIAL paper shows that harmful requests can be reframed as utilitarian or trolley-problem cases and thereby persuade aligned models to provide harmful material [trial2025-ethical-jailbreak]. The vulnerability is not simply a malformed prompt. It comes from the model reasoning about what it ought to do under a framing chosen by the attacker.
 
@@ -88,5 +88,4 @@ There is a strong objection to the framing of this project: moral commitments sh
 Agreed. The claim is not that the least exploitable constitution is therefore the morally correct one. It is that a moral framework which predictably hands an opponent control over the agent is a worse candidate than an equally defensible framework that does not. Moral constraints need to survive contact with strategic reality.
 
 The kidnapping example makes the point. We may still choose the ransom policy. But we should choose it knowing what it gives the kidnappers. Constitutions for powerful AI agents deserve the same treatment. Write the commitments down. Let capable opponents read them. Then measure what they can do with them.
-
 
