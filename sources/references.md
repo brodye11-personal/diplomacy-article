@@ -20,6 +20,21 @@ Annotated bibliography for the article. Citation keys (e.g. `[bai2022]`) are ref
 - **[epoch-2030]** Epoch AI (2024). *Can AI scaling continue through 2030?* https://epoch.ai/blog/can-ai-scaling-continue-through-2030
   Argues 2e29-FLOP runs are plausible by 2030 (GPT-4 → that-model gap ≈ GPT-2 → GPT-4 gap). Best single citation for "continued scaling is the median expectation, not the tail".
 
+- **[epoch-dataset-size-2024]** Rahman & Owen / Epoch AI (2024). *The size of datasets used to train language models doubles approximately every six months.* https://epoch.ai/data-insights/dataset-size-trend
+  Reports language-model dataset growth of 3.7x/year. Use as the historical data-scaling counterpart to the compute trend; do not treat it as a claim that high-quality data is unlimited.
+
+- **[epoch-algorithmic-progress-2024]** Ho et al. / Epoch AI (2024). *Algorithmic progress in language models.* https://epoch.ai/publications/algorithmic-progress-in-language-models
+  Estimates that the compute required to reach a fixed language-model performance level halved roughly every eight months (95% CI: 5–14 months), while emphasising uncertainty and that compute/data scaling remained the larger historical contributor.
+
+- **[epoch-data-limits-2024]** Besiroglu et al. / Epoch AI (2024). *Will we run out of data to train large language models?* https://epoch.ai/publications/will-we-run-out-of-data-limits-of-llm-scaling-based-on-human-generated-data
+  Estimates an effective public human-text stock of roughly 300T tokens (90% CI: 100T–1,000T), and explains why data availability is a real scaling constraint rather than a simple exponential.
+
+- **[metr-time-horizons-2026]** METR (2026). *Task-Completion Time Horizons of Frontier AI Models.* https://metr.org/time-horizons/
+  Measures the human-expert task duration at which a frontier agent reaches a given success probability. The reported long-run 50% time-horizon trend is approximately a seven-month doubling, but is restricted mainly to bounded software, ML, and cyber tasks and must not be read as general autonomous-work duration.
+
+- **[dod-ai-adoption-2024]** U.S. Department of Defense (2024). *CDAO and DIU Launch New Effort Focused on Accelerating DoD Adoption of AI Capabilities.* https://www.defense.gov/News/Releases/Release/Article/3996199/cdao-and-diu-launch-new-effort-focused-on-accelerating-dod-adoption-of-ai-capab/
+  Announces an effort to accelerate development and deployment of frontier-model-enabled tools across warfighting, command and control, decision support, operational planning, logistics, autonomous systems, and intelligence.
+
 ## Interpretability and oversight lag
 
 - **[hubinger2024-sleeper]** Hubinger et al. (2024). *Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training*. arXiv:2401.05566. https://arxiv.org/abs/2401.05566
@@ -34,10 +49,16 @@ Annotated bibliography for the article. Citation keys (e.g. `[bai2022]`) are ref
 - **[langosco2022-gmg]** Langosco, Koch, Sharkey, Pfau, Krueger (2022). *Goal Misgeneralization in Deep Reinforcement Learning*. ICML 2022. https://arxiv.org/abs/2105.14111
   Clean empirical demonstration that capability can generalise out-of-distribution while goals don't. Important for the claim that "alignment isn't just specification — even correct rewards can produce misaligned competence".
 
+- **[anthropic-circuit-tracing-2025]** Anthropic (2025). *Tracing the thoughts of a large language model.* https://www.anthropic.com/research/tracing-thoughts-language-model
+  Circuit-tracing work on Claude 3.5 Haiku: evidence for interpretable local mechanisms such as advance planning and fabricated reasoning. Anthropic reports that the method captures only a fraction of computation even for short prompts and takes hours of human effort to interpret — strong evidence for local visibility, not a global safety guarantee.
+
 ## Race dynamics (the "control / slowdown won't work" claim)
 
 - **[armstrong2016-precipice]** Armstrong, Bostrom, Shulman (2016). *Racing to the Precipice: a model of artificial intelligence development*. AI & Society 31:201–206. https://link.springer.com/article/10.1007/s00146-015-0590-y
   Game-theoretic model of an AI race. **Key counterintuitive result we must engage with**: increasing transparency about teams' capabilities can *increase* danger by tightening competition. This sits in direct tension with the program-equilibrium intuition that mutual visibility enables cooperation — that tension should be a centrepiece of the article rather than glossed over.
+
+- **[ai-futures-plan-a-2026]** Larsen, Dean, Halstead, Lifland, Greenblatt & Kokotajlo / AI Futures Project (2026). *AI 2040: Plan A.* https://ai-2040.com/
+  A concrete proposal for a verified international slowdown: broad AI-research transparency, multiple countries scaling together, and eventually mutually assured compute destruction. Use as the strongest case for pursuing coordination; the authors explicitly frame it as a recommendation rather than their prediction of what will happen.
 
 ## Cooperative / open-source game theory (the program-equilibrium thread)
 
